@@ -1,0 +1,21 @@
+{
+    "name": "guillaume-boutin/ruby-faker",
+    "description": "Providers for fzaninotto faker based on stympy's faker for Ruby",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guillaume Boutin",
+            "email": "guillaumeboutin2101@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "fzaninotto/faker": "^1.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "RubyFaker": "src/"
+        }
+    }
+}
